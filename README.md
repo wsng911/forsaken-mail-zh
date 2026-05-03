@@ -1,6 +1,4 @@
-# Forsaken Mail 汉化版
-
-> 基于 [denghongcai/forsaken-mail](https://github.com/denghongcai/forsaken-mail) 的汉化版本，自托管临时邮箱服务。
+# Forsaken Mail
 
 ## 功能特性
 
@@ -22,9 +20,3 @@ docker run -d \
 ```
 
 访问 `http://localhost:3000`（需要 25 端口接收邮件）
-
-## 国内适配
-
-- npm 镜像：npmmirror.com
-- 前端 CDN：lib.baomitu.com（国内）
-
