@@ -7,6 +7,7 @@ RUN npm install --production && npm cache clean --force
 
 COPY . .
 
+ENV TZ=Asia/Shanghai
 EXPOSE 25
 EXPOSE 3000
 
