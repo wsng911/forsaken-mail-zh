@@ -82,12 +82,12 @@ $(function(){
   socket.on('mail', function(mail) {
     if(('Notification' in window)) {
       if(Notification.permission === 'granted') {
-        new Notification('New mail from ' + mail.headers.from);
+        new Notification('收到新邮件，来自：' + mail.headers.from);
       }
       else if(Notification.permission !== 'denied') {
         Notification.requestPermission(function(permission) {
           if(permission === 'granted') {
-            new Notification('New mail from ' + mail.headers.from);
+            new Notification('收到新邮件，来自：' + mail.headers.from);
           }
         })
       }
