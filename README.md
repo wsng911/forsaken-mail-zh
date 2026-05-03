@@ -28,6 +28,3 @@ docker run -d \
 - npm 镜像：npmmirror.com
 - 前端 CDN：lib.baomitu.com（国内）
 
-## 原项目
-
-https://github.com/denghongcai/forsaken-mail
